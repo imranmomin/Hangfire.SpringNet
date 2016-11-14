@@ -23,7 +23,7 @@ The package provides an extension methods for the `IGlobalConfiguration` interfa
 
 ```csharp
 Spring.Context.IApplicationContext context = Spring.Context.Support.ContextRegistry.GetContext();
-GlobalConfiguration.Configuration.UseSpringActivator(builder.Build());
+GlobalConfiguration.Configuration.UseSpringActivator(context);
 ```
 
 After invoking the `UseSpringActivator` method, Spring.Net-based implementation of the `JobActivator` class will be used to resolve job type instances during the background job processing.
