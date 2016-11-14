@@ -1,10 +1,9 @@
 ﻿using System;
 
-using Hangfire;
 using Spring.Context;
 using Spring.Context.Support;
 
-namespace ProjectiveGraph.Core.Hangfire
+namespace Hangfire
 {
     public static class GlobalConfigurationExtensions
     {
@@ -21,9 +20,7 @@ namespace ProjectiveGraph.Core.Hangfire
             if (configuration == null) throw new ArgumentNullException("configuration");
 
             IApplicationContext context = ContextRegistry.GetContext();
-            if (context == null) throw new ArgumentNullException("context");
-
-            return configuration.UseActivator(new SpringJobActivator(context));
+            return configuration.UseSpringActivator(context);
         }
     }
 }
