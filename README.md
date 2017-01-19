@@ -10,7 +10,7 @@ Hangfire job activator based on Spring.Net IoC container
 Installation
 --------------
 
-*Hangfire.SpringNet* is available as a NuGet Package. Type the following command into NuGet Package Manager Console window to install it:
+*[Hangfire.SpringNet](https://www.nuget.org/packages/Hangfire.SpringNet)* is available as a NuGet Package. Type the following command into NuGet Package Manager Console window to install it:
 
 ```
 Install-Package Hangfire.SpringNet
