@@ -1,7 +1,9 @@
 # Hangfire.SpringNet
-Hangfire job activator based on Spring.Net IoC container
+[![Official Site](https://img.shields.io/badge/site-hangfire.io-blue.svg)](http://hangfire.io)
+[![Latest version](https://img.shields.io/badge/nuget-v1.0.1-blue.svg)](https://www.nuget.org/packages/Hangfire.SpringNet/) 
 
-================
+Hangfire job activator based on Spring.Net IoC container
+--------------
 
 [Spring.Net](http://springframework.net/) integration for [Hangfire](http://hangfire.io). Provides an implementation of the `JobActivator` class, allowing you to use Spring.Net container to **resolve job type instances**.
 
