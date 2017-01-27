@@ -1,6 +1,7 @@
 # Hangfire.SpringNet
 [![Official Site](https://img.shields.io/badge/site-hangfire.io-blue.svg)](http://hangfire.io)
 [![Latest version](https://img.shields.io/badge/nuget-v1.0.1-blue.svg)](https://www.nuget.org/packages/Hangfire.SpringNet/) 
+[![Build status](https://ci.appveyor.com/api/projects/status/fi1qrmxyhfhvncqk?svg=true)](https://ci.appveyor.com/project/imranmomin/hangfire-springnet)
 
 Hangfire job activator based on Spring.Net IoC container
 --------------
