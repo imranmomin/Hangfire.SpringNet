@@ -1,6 +1,7 @@
 # Hangfire.SpringNet
 [![Official Site](https://img.shields.io/badge/site-hangfire.io-blue.svg)](http://hangfire.io)
-[![Latest version](https://img.shields.io/badge/nuget-v1.0.1-blue.svg)](https://www.nuget.org/packages/Hangfire.SpringNet/) 
+[![Latest version](https://img.shields.io/nuget/v/Hangfire.SpringNet.svg)](https://www.nuget.org/packages/Hangfire.SpringNet/) 
+[![Build status](https://ci.appveyor.com/api/projects/status/uvxh94dhxcokga47?svg=true)](https://ci.appveyor.com/project/imranmomin/hangfire-azuredocumentdb)
 
 Hangfire job activator based on Spring.Net IoC container
 --------------
@@ -9,17 +10,15 @@ Hangfire job activator based on Spring.Net IoC container
 
 *Hangfire.SpringNet* resolves service instances.
 
-Installation
---------------
+## Installation
 
 *[Hangfire.SpringNet](https://www.nuget.org/packages/Hangfire.SpringNet)* is available as a NuGet Package. Type the following command into NuGet Package Manager Console window to install it:
 
-```
+```powershell
 Install-Package Hangfire.SpringNet
 ```
 
-Usage
-------
+## Usage
 
 The package provides an extension methods for the `IGlobalConfiguration` interface, so you can enable Spring.Net integration using the `GlobalConfiguration` class:
 
