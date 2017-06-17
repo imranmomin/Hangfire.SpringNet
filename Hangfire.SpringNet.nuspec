@@ -21,6 +21,6 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="lib\net45\Hangfire.SpringNet.dll" target="lib\net45\Hangfire.SpringNet.dll" />
+      <file src="Hangfire.SpringNet\bin\Release\Hangfire.SpringNet.dll" target="lib\net45\Hangfire.SpringNet.dll" />
     </files>
 </package>
